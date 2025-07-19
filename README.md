@@ -1,2 +1,4 @@
 Understanding & Solving DSA questions and concepts on daily basis.  
-Crrrently working on Sorting Algorithms.
+Worked on Sorting Algorithms.  
+Worked on Arrays.  
+Currently working on Binary Search.  
