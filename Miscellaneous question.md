@@ -148,3 +148,44 @@ class Solution {
     }
 }
 ```
+## DAY 28
+### Remove K Digits
+```java
+class Solution {
+    public String removeKdigits(String num, int k) {
+        Stack<Character> st = new Stack<>();
+
+        // Step 1: Build the stack with greedy removal
+        for (int i = 0; i < num.length(); i++) {
+            while (!st.empty() && k > 0 && st.peek() > num.charAt(i)) {
+                st.pop();
+                --k;
+            }
+            st.push(num.charAt(i));
+        }
+
+        // Step 2: Remove remaining digits from the end if k > 0
+        while (k > 0) {
+            st.pop();
+            --k;
+        }
+
+        // Step 3: Build the result string from the stack
+        StringBuilder res = new StringBuilder();
+        while (!st.empty()) {
+            res.append(st.pop());
+        }
+
+        // Step 4: Reverse the result since we built it backwards
+        res.reverse();
+
+        // Step 5: Remove leading zeroes
+        while (res.length() > 0 && res.charAt(0) == '0') {
+            res.deleteCharAt(0);
+        }
+
+        // Step 6: Return "0" if result is empty
+        return res.length() == 0 ? "0" : res.toString();
+    }
+}
+```
