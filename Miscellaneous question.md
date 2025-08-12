@@ -148,7 +148,7 @@ class Solution {
     }
 }
 ```
-## DAY 28
+## DAY 29
 ### Remove K Digits
 ```java
 class Solution {
@@ -189,7 +189,7 @@ class Solution {
     }
 }
 ```
-## DAY 29
+## DAY 30
 ### Largest Rectangle in Histogram
 ```java
 class Solution {
@@ -214,8 +214,8 @@ class Solution {
         return maxA;
     }
 }
-
-## DAY 30
+```
+## DAY 31
 ### Maximal Rectangle
 ```java
 import java.util.Stack;
