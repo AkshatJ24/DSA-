@@ -214,4 +214,61 @@ class Solution {
         return maxA;
     }
 }
+
+## DAY 30
+### Maximal Rectangle
+```java
+import java.util.Stack;
+
+class Solution {
+    // Helper method to compute largest rectangle in histogram
+    public int LHist(int[] arr) {
+        Stack<Integer> st = new Stack<>();
+        int maxA = 0;
+        int n = arr.length;
+
+        for (int i = 0; i <= n; i++) {
+            while (!st.isEmpty() && (i == n || arr[st.peek()] >= (i < n ? arr[i] : 0))) {
+                int height = arr[st.pop()];
+                int width = st.isEmpty() ? i : i - st.peek() - 1;
+                maxA = Math.max(maxA, width * height);
+            }
+            if (i < n) {
+                st.push(i);
+            }
+        }
+
+        return maxA;
+    }
+
+    public int maximalRectangle(char[][] matrix) {
+        // Edge case: empty matrix
+        if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {
+            return 0;
+        }
+
+        int row = matrix.length;
+        int col = matrix[0].length;
+        int maxA = 0;
+
+        // Prefix sum matrix to build histogram rows
+        int[][] psum = new int[row][col];
+
+        for (int j = 0; j < col; j++) {
+            int sum = 0;
+            for (int i = 0; i < row; i++) {
+                sum = (matrix[i][j] == '1') ? sum + 1 : 0;
+                psum[i][j] = sum;
+            }
+        }
+
+        // Apply histogram logic row by row
+        for (int i = 0; i < row; i++) {
+            maxA = Math.max(maxA, LHist(psum[i]));
+        }
+
+        return maxA;
+    }
+}
+```
 ```
