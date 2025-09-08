@@ -2,4 +2,5 @@ Understanding & Solving DSA questions and concepts on daily basis.
 Worked on Sorting Algorithms.  
 Worked on Arrays.  
 Worked on Binary Search.  
-Currently working on BIT Manipulation.  
+Wokrked on BIT Manipulation.  
+Currently working on Sliding Window + Two Pointer Combined.
