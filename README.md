@@ -7,3 +7,4 @@ Currently working on Sliding Window + Two Pointer Combined.
 - Max Consecutive Ones III
 - Longest Repeating Character Replacement
 - Binary Subarrays with Sum
+- Number of Nice Subarrays
