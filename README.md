@@ -8,3 +8,4 @@ Currently working on Sliding Window + Two Pointer Combined.
 - Longest Repeating Character Replacement
 - Binary Subarrays with Sum
 - Number of Nice Subarrays
+- Number of Substrings Containing All Three Characters
