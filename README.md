@@ -12,5 +12,6 @@ Worked on Sliding Window + Two Pointer Combined.
 - Maximum Points you can obtain from Cards
 - Subarrays with K Different Integers
 - Minimum Window Substring
-Working on Strings
+
+Working on Strings  
 - Remove Outermost Paranthesis
