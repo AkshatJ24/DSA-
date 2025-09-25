@@ -17,3 +17,5 @@ Working on Strings
 - Remove Outermost Paranthesis
 - Reverse Words in a String
 - Largest Odd Number in String
+- Longest Common Prefix
+- Isomorphic Strings
