@@ -19,4 +19,5 @@ Working on Strings
 - Largest Odd Number in String
 - Longest Common Prefix
 - Isomorphic Strings
-- [Rotate String](https://leetcode.com/problems/rotate-string/)
+- Rotate String
+- Valid Anagram
