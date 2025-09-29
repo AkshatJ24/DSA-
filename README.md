@@ -22,3 +22,5 @@ Working on Strings
 - Rotate String
 - Valid Anagram
 - Sort Characters by Frequency
+- Maximum Nesting Depth of the Parentheses
+- Roman to Integer
