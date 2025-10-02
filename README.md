@@ -25,6 +25,7 @@ Working on Strings
 - Maximum Nesting Depth of the Parentheses
 - Roman to Integer
 - String to Integer (atoi)
+- Longest Palindromic Substring
 
 Worked on Dynamic Programming
   - Unique Paths
