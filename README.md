@@ -26,6 +26,7 @@ Working on Strings
 - Roman to Integer
 - String to Integer (atoi)
 - Longest Palindromic Substring
+- Sum of Beauty of ALl Substrings
 
 Worked on Dynamic Programming
   - Unique Paths
