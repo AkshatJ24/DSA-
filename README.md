@@ -13,7 +13,7 @@ Worked on Sliding Window + Two Pointer Combined.
 - Subarrays with K Different Integers
 - Minimum Window Substring
 
-Working on Strings  
+Worked on Strings  
 - Remove Outermost Paranthesis
 - Reverse Words in a String
 - Largest Odd Number in String
@@ -26,7 +26,10 @@ Working on Strings
 - Roman to Integer
 - String to Integer (atoi)
 - Longest Palindromic Substring
-- Sum of Beauty of ALl Substrings
+- Sum of Beauty of All Substrings
 
+Working on Recursion
+  - Implement Pow(x,n)
+    
 Worked on Dynamic Programming
   - Unique Paths
