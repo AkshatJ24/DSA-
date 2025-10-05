@@ -30,6 +30,7 @@ Worked on Strings
 
 Working on Recursion
   - Implement Pow(x,n)
+  - Count Good Numbers
     
 Worked on Dynamic Programming
   - Unique Paths
