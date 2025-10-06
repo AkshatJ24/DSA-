@@ -31,6 +31,7 @@ Worked on Strings
 Working on Recursion
   - Implement Pow(x,n)
   - Count Good Numbers
+  - Generate Paranthesis
     
 Worked on Dynamic Programming
   - Unique Paths
