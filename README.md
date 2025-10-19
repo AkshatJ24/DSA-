@@ -39,6 +39,7 @@ Working on Recursion & Backtracking
   - Subsets II
   - Letter Combinations of a Phone Number
   - Palindrome Partitionig
+  - Word Search
     
 Worked on Dynamic Programming
   - Unique Paths
