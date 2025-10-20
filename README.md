@@ -40,6 +40,7 @@ Working on Recursion & Backtracking
   - Letter Combinations of a Phone Number
   - Palindrome Partitionig
   - Word Search
+  - N Queens
     
 Worked on Dynamic Programming
   - Unique Paths
