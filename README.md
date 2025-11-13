@@ -1,5 +1,6 @@
 Worked on Sorting Algorithms.  
 Worked on Arrays.  
+  - Valid Sudoku
 Worked on Binary Search.  
 Worked on BIT Manipulation.  
 Worked on Sliding Window + Two Pointer Combined.
