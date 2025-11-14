@@ -43,6 +43,7 @@ Working on Recursion & Backtracking
   - Palindrome Partitionig
   - Word Search
   - N Queens
+  - Sudoku Solver
     
 Worked on Dynamic Programming
   - Unique Paths
