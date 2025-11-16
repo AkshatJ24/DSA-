@@ -30,7 +30,7 @@ Worked on Strings
 - Longest Palindromic Substring
 - Sum of Beauty of All Substrings
 
-Working on Recursion & Backtracking
+Worked on Recursion & Backtracking
   - Implement Pow(x,n)
   - Count Good Numbers
   - Generate Paranthesis
@@ -49,5 +49,6 @@ Worked on Dynamic Programming
   - Unique Paths
   - Word Break
 
-Heaps
+Working on Heaps
   - Kth Largest Element in an Array
+  - Merge K Sorted Lists
